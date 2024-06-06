@@ -1,2 +1,2 @@
 # Project-1
-MERN Stack Project
+Wanderlust MERN Stack Project
