@@ -51,6 +51,7 @@ body{
 .f-info-links a{
     text-decoration: none;
     color:#222222;
+    margin-right: 0.5rem;
 }
 
 .f-info-links a:hover{
