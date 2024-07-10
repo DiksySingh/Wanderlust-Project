@@ -37,7 +37,7 @@ body{
 }
 
 .f-info-socials, .f-info-links{
-    width: 100%;
+    width: 100% !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,7 @@ body{
 
 /* Card Styling */
 
-.card{
+.listing-card{
     border: none !important;
     margin-bottom: 2rem;
 }
@@ -105,6 +105,20 @@ body{
 /* Edit Page Style */
 
 .edit-btn {
-    color:#fe424d !important;
+    background-color:#fe424d !important;
     border: none !important;
+}
+
+/*Show Page Style */
+
+.edit-link {
+    text-decoration: none;
+    color: white;
+}
+
+.listing-image {
+    height: 20rem; 
+    width: 40rem; 
+    object-fit: cover;
+    border-radius: 1.5rem;
 }
